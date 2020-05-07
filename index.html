@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>COVID FYI | One stop for all info related to COVID-19</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        
+        <header>
+            
+            <nav>
+                <div class="logo">
+                    <a href="index.html"> <img src="assets/covidFYI-logo.svg" alt="COVIDFYI-logo"></a>
+                </div>
+               
+                <div class="menu__items">
+                    <ul>
+                        <li class="each__menu__item" id="activePage"><a href="#" rel="noopener noreferrer">Home</a></li>
+                        <li class="each__menu__item"><a href="#" rel="noopener noreferrer">About us</a>
+                        </li>
+                        <li class="each__menu__item"><a href="#" rel="noopener noreferrer">Partners</a>
+                        </li>
+                        <li class="each__menu__item"><a href="#" rel="noopener noreferrer">Blog</a></li>
+                        <li class="each__menu__item"><a href="#" rel="noopener noreferrer">Volunteer</a>
+                        </li>
+                        <li class="each__menu__item"><a href="#" rel="noopener noreferrer">Contact
+                                us</a>
+                        </li>
+                    </ul>
+                    <div class="choose__language">
+                        <select name="page__language" id="page__language">
+                            <option value="English">English</option>
+                            <option value="Hindi">हिन्दी</option>
+                            <option value="Telugu">తెలుగు</option>
+                            <option value="Tamil">தமிழ்</option>
+                            <option value="Marathi">मराठी</option>
+                        </select>
+                    </div>
+                </div>
+                <div   class="text-color-primary" id="mobileMenu">
+                    <i class="fal fa-bars fa-2x"></i>
+                </div>
+            </nav>
+
+        </header>
+        <main>
+            <section class="search__box__section">
+
+                <p class="site__intro display-5">One stop platform for all resources from government of India for
+                    COVID-19 Crisis
+                    management.</p>
+                <p class="text-color-primary display-5">Kindly enter your state/UT name:</p>
+
+                <div class="search__input__container">
+                    <div class="search__bar">
+                        <img src="assets/search-outline.svg" alt="search-icon" id="search__icon">
+                        <input type="search" name="location__name" id="location__name" spellcheck="false"
+                            placeholder="Example: Delhi">
+                        <img src="assets/locate-outline.svg" alt="Locate-icon" id="locate__icon">
+                    </div>
+                    <p class="current__location">Your current location is: <span
+                            class="current__location__name">Telangana</span></p>
+                </div>
+
+            </section>
+
+            <section class="available__services"> 
+                <p>Below are the available categories for your current location:</p>
+                <div class="service__container">
+                    
+                   <a href="">
+                    <div class="each__service">
+                        <div class="service__icon">
+                            <i class="fal fa-hospital-alt fa-3x"></i>
+                        </div>
+                        <div class="service__name">
+                            <p  >Hospitals</p>
+                        </div>
+                    </div>
+                   </a>
+
+                   <a href="">
+                    <div class="each__service">
+                        <div class="service__icon">
+                            <i class="fal fa-phone-alt fa-3x"></i>
+                        </div>
+                        <div class="service__name">
+                            <p  >State wise
+                                Helpline Numbers</p>
+                        </div>
+                    </div>
+                   </a>
+
+                   <a href="">
+                    <div class="each__service">
+                        <div class="service__icon">
+                            <i class="fal fa-address-card fa-3x"></i>
+                        </div>
+                        <div class="service__name">
+                            <p  >Government 
+                                Officers</p>
+                        </div>
+                    </div>
+                   </a>
+
+                   <a href="">
+                    <div class="each__service">
+                        <div class="service__icon">
+                            <i class="fal fa-microscope fa-3x"></i>
+                        </div>
+                        <div class="service__name">
+                            <p  >Laboratories</p>
+                        </div>
+                    </div>
+                   </a>
+
+                   <a href="">
+                    <div class="each__service">
+                        <div class="service__icon">
+                            <i class="fal fa-user-md fa-3x"></i>
+                        </div>
+                        <div class="service__name">
+                            <p  >Doctors</p>
+                        </div>
+                    </div>
+                   </a>
+                </div>
+            </section>
+
+            <section class="additional__info__section__homepage">
+                <div class="quick__contact__details">
+                    <h5 class="title">Quick contact details:</h5>
+                    <ul>
+                        <li>
+                            <span class="icon"><i class="fal fa-phone-volume"></i></span> National Helpline Number: <a
+                                href="tel:+911123978046">+91-11-23978046</a>&nbsp;&nbsp;<a href="tel:+911123978046"
+                                class="success__action__button">Call Now</a>
+                        </li>
+                        <li>
+                            <span class="icon"><i class="fal fa-envelope"></i></span> National Helpline Email ID: <a
+                                href="mailto:ncov2019@gov.in">ncov2019@gov.in</a>&nbsp;&nbsp;<a href="mailto:ncov2019@gov.in"
+                                class="success__action__button">Email Now</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="current__covid__stats">
+                    <h5 class="title">Current COVID-19 stats: <span>As of: </span></h5>
+                    <ul>
+                        <li>
+                            <p>Confirmed</p>
+                            <div class="confirmed__cases__container">
+                                <span id="confirmed__cases">53,007</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <p>Active</p>
+                            <div class="active__cases__container">
+                                <span id="active__cases">35,990</span>
+                        </li>
+                        <li>
+                            <p>Recovered</p>
+                            <div class="recovered__cases__container">
+                                <span id="recovered__cases">15,331</span>
+                        </li>
+                        <li>
+                            <p>Deaths</p>
+                            <div class="deaths__cases__container">
+                                <span id="deaths__cases">1,785</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+           
+
+            <!-- this will push the content present above the footer  -->
+            <div class="push">
+            </div>
+        </main>
+        <footer>
+            <section class="site__statistics__banner">
+                <div  >
+                    <p>It feels proud to inform that collectively we have over 1500 contact details in our database
+                        (Adding more on daily basis). <a href="#">See full details</a></p>
+                </div>
+            </section>
+            <div class="copyright">
+                <a>Copyright ©️ 2020 <a href="#">COVIDFYI.in</a>, All Rights Reserved.</p>
+            </div>
+            <div class="footer__links">
+                <!-- <a href="">Privacy Policy</a>
+                <a href="">Terms of Use</a> -->
+                <div class="social__media__links">
+                  
+                    <ul>
+                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href=""><i class="fal fa-comments"></i></a></li>
+                    </ul>
+                  
+                </div>
+            </div>
+        </footer>
+        <script src="JS/main.js"></script>
+    </body>
+
+    
+</html>
